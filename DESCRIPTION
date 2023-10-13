@@ -1,0 +1,28 @@
+Package: Maestro
+Title: MAESTRO
+Version: 0.0.0.9000
+Authors@R: 
+    person("Big", "Daddy", , "AUTHOR@MAIL.COM", role = c("cre", "aut"))
+Description: Master of Extraordinary Strategy, Reasearch, and
+    Optimizations.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    dplyr,
+    fredr,
+    golem,
+    Quandl,
+    shiny,
+    shinydashboard
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.2.3
